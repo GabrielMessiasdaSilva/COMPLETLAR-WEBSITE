@@ -11,22 +11,15 @@ O Projeto Completlar é um website que torna a compra de móveis personalizados 
 
 O principal objetivo do projeto Completlar é criar uma experiência de compra única e personalizada para os clientes em busca de móveis sob medida. A plataforma oferece uma ampla gama de opções de design e funcionalidades de personalização para atender às necessidades de cada cliente.
 
-## Tecnologias Utilizadas 💻
-
-O desenvolvimento do projeto Completlar envolve o uso das seguintes tecnologias:
+## Tecnologias Utilizadas no Projeto 💻
 
 - HTML (Linguagem de Marcação de HiperTexto)
 - CSS (Folha de Estilo em Cascata)
 - JavaScript (JS)
-- PHP
+- PHP e Mysql
 - Bootstrap
 
 
 
 
 
-## Agradecimentos 🙏
-
-Agradecemos por visitar o projeto Completlar. Esperamos proporcionar a você uma experiência agradável ao explorar nossa plataforma de móveis personalizados.
-
----
