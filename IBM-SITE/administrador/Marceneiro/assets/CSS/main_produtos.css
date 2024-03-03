@@ -1,0 +1,224 @@
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.card-price {
+  color: #007bff;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn-danger:hover {
+  background-color: #c82333;
+}
+
+.pagination {
+  margin-top: 20px;
+  
+}
+.pagination a {
+  transition: background-color .3s;
+}
+    /* Estilização do Footer */
+    #footer {
+      padding: 3em 2em;
+      width: 100%;
+    }
+    
+    #footer-top {
+      margin-bottom: 2em;
+    }
+    
+    #footer-top,
+    #footer-top i {
+      color: #fff;
+    }
+    
+    #social-icons {
+      text-align: right;
+    }
+    
+    #social-icons i {
+      margin-right: 1em;
+      font-size: 1.5em;
+      cursor: pointer;
+    }
+    
+    #social-icons i:hover {
+      color: #7a7a7a;
+    }
+    
+    #footer-details {
+      margin-bottom: 3em;
+    }
+    
+    #news-container,
+    #contact-container,
+    #links-container {
+      padding: 0;
+      border: 0;
+      margin-bottom: 2em;
+    }
+    
+    #footer-details h4 {
+      color: #fff;
+      margin-bottom: 1.5em;
+    }
+    
+    #news-container input {
+      border-radius: 0;
+      border: none;
+    }
+    
+    #links-container li {
+      margin-bottom: 0.5em;
+    }
+    
+    #links-container a {
+      text-decoration: none;
+    }
+    
+    #links-container a:hover {
+      color: #fff;
+    }
+    
+    #footer-bottom {
+      border-top: 1px solid #7a7a7a;
+      padding-top: 2em;
+    }
+    
+    /* Estilo para a seção de links e ícones de pagamento no footer */
+    #links-container {
+      /* ... (seus estilos existentes) ... */
+      text-align: center; /* Centralizar os ícones */
+    }
+    
+    .payment-icons {
+      margin-top: 20px; /* Espaçamento entre os links e os ícones */
+    }
+    
+    .payment-icons img {
+      max-width: 40px; /* Defina o tamanho desejado para os ícones */
+      height: auto;
+      margin-right: 10px; /* Espaçamento entre os ícones */
+    }
+    
+  
+  /* Estilização do Footer */
+  #footer {
+    padding: 3em 2em;
+    width: 100%;
+  }
+  
+  #footer-top {
+    margin-bottom: 2em;
+  }
+  
+  #footer-top,
+  #footer-top i {
+    color: #fff;
+  }
+  
+  #social-icons {
+    text-align: right;
+  }
+  
+  #social-icons i {
+    margin-right: 1em;
+    font-size: 1.5em;
+    cursor: pointer;
+  }
+  
+  #social-icons i:hover {
+    color: #7a7a7a;
+  }
+  
+  #footer-details {
+    margin-bottom: 3em;
+  }
+  
+  #news-container,
+  #contact-container,
+  #links-container {
+    padding: 0;
+    border: 0;
+    margin-bottom: 2em;
+  }
+  
+  #footer-details h4 {
+    color: #fff;
+    margin-bottom: 1.5em;
+  }
+  
+  #news-container input {
+    border-radius: 0;
+    border: none;
+  }
+  
+  #links-container li {
+    margin-bottom: 0.5em;
+  }
+  
+  #links-container a {
+    text-decoration: none;
+  }
+  
+  #links-container a:hover {
+    color: #fff;
+  }
+  
+  #footer-bottom {
+    border-top: 1px solid #7a7a7a;
+    padding-top: 2em;
+  }
+  
+  /* Estilo para a seção de links e ícones de pagamento no footer */
+  #links-container {
+    /* ... (seus estilos existentes) ... */
+    text-align: center; /* Centralizar os ícones */
+  }
+  
+  .payment-icons {
+    margin-top: 20px; /* Espaçamento entre os links e os ícones */
+  }
+  
+  .payment-icons img {
+    max-width: 40px; /* Defina o tamanho desejado para os ícones */
+    height: auto;
+    margin-right: 10px; /* Espaçamento entre os ícones */
+  }
+  

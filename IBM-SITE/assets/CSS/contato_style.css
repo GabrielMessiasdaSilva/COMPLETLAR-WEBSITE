@@ -1,0 +1,231 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+* {
+  font-family: 'Lato', sans-serif;
+}
+
+.bg-primary-color {
+  background-color: #fff;
+}
+
+.bg-secondary-color {
+  background-color: #ece8e2;
+}
+
+.bg-dark-color {
+  background-color: #050505;
+}
+
+.primary-color {
+  color: #050505;
+}
+
+.secondary-color {
+  color: #7a7a7a;
+}
+
+
+
+.navbar {
+  background-image: linear-gradient(to right, #0d4172, #3b2c05);
+  padding: 15px;
+}
+.navbar-brand {
+  color: #ffffff;
+  font-size: 1.5rem;
+  margin-left: 10px;
+}
+.navbar-nav .nav-link {
+  color: #ffffff;
+  margin-left: 10px;
+}
+.navbar-nav .nav-link:hover {
+  color: #ffffff;
+}
+.navbar-toggler {
+  border-color: #ffffff;
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22m-7 8h7'/%3e%3c/svg%3e");
+}
+.form-control {
+  width: 150px;
+  margin-right: 10px;
+}
+.navbar .fa {
+  color: #f5fbff;
+  font-size: 1.2rem;
+  margin-right: 5px;
+}
+/* Estilizando os links da barra de navegação */
+.nav-link {
+  color: #fff !important;
+}
+
+.nav-link:hover {
+  color: #ccc !important;
+}
+
+.navbar .lar{
+color: #9f730d;
+}
+
+
+/*RESPONSIVIDADE*/
+.dis{
+display: none;
+}
+h5.hcinco{
+margin-top: 20px; 
+margin-left: -150px;
+}
+@media (max-width: 1020px){
+.dis{
+  display: block;
+}
+.none{
+  display: none;
+}
+}
+@media (max-width: 362px){
+h5.hcinco{
+  margin-top: 20px; 
+margin-left: -100px;
+}
+}
+
+.button-class{
+color:white;
+}
+.dis{
+display:auto ;
+}
+h5.hcinco{
+margin-top: 20px; 
+margin-left: -150px;
+}
+@media (max-width: 1020px){
+.dis{
+  display: block;
+}
+.none{
+  display: none;
+}
+}
+@media (max-width: 362px){
+h5.hcinco{
+  margin-top: 20px; 
+margin-left: -100px;
+}
+}
+
+/* FOOTER TOP */
+#footer {
+  padding: 3em 2em;
+  width:100%;
+}
+
+#footer-top {
+  margin-bottom: 2em;
+}
+
+#footer-top,
+#footer-top i {
+  color: #fff;
+}
+
+#social-icons {
+  text-align: right;
+}
+
+#social-icons i {
+  margin-right: 1em;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+#social-icons i:hover {
+  color: #7a7a7a;
+}
+
+/* FOOTER DETAILS */
+#footer-details {
+  margin-bottom: 3em;
+}
+
+#news-container,
+#contact-container,
+#links-container {
+  padding: 0;
+  border: 0;
+  margin-bottom: 2em;
+}
+
+#footer-details h4 {
+  color: #fff;
+  margin-bottom: 1.5em;
+}
+
+#news-container input {
+  border-radius: 0;
+  border: none;
+}
+
+#links-container li {
+  margin-bottom: 0.5em;
+}
+
+#links-container a {
+  text-decoration: none;
+}
+
+#links-container a:hover {
+  color: #fff;
+}
+
+/* FOOTER BOTTOM */
+#footer-bottom {
+  border-top: 1px solid #7a7a7a;
+  padding-top: 2em;
+}
+
+#footer-bottom i {
+  color: #e61e10;
+}
+
+/* Estilo para a seção de links e ícones de pagamento no footer */
+#links-container {
+  /* ... (seus estilos existentes) ... */
+  text-align: center; /* Centralizar os ícones */
+}
+
+.payment-icons {
+  margin-top: 20px; /* Espaçamento entre os links e os ícones */
+}
+
+.payment-icons img {
+  max-width: 40px; /* Defina o tamanho desejado para os ícones */
+  height: auto;
+  margin-right: 10px; /* Espaçamento entre os ícones */
+}
+
+@media (min-width: 768px) {
+  #news-container {
+    padding-right: 2em;
+  }
+
+  #contact-container {
+    padding: 0 2em;
+    border-left: 1px solid #7a7a7a;
+    border-right: 1px solid #7a7a7a;
+  }
+
+  #links-container {
+    padding-left: 2em;
+  }
+}
+

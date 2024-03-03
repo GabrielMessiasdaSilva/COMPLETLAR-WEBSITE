@@ -1,0 +1,73 @@
+/* orcamento.css */
+
+/* Modais */
+.modal-content {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.15);
+  color: #333;
+}
+
+.modal-header {
+  background-color: #007bff;
+  color: white;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.modal-title {
+  font-size: 1.5rem;
+}
+
+.modal-body {
+  padding: 20px;
+}
+
+.modal-footer {
+  justify-content: center;
+  border-top: none;
+}
+
+/* Input group */
+.input-group {
+  margin-bottom: 20px;
+}
+
+/* Botões do modal */
+.btn-primary,
+.btn-secondary {
+  margin-right: 10px;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+  color: white;
+}
+
+.btn-secondary {
+  background-color: #f2f2f2;
+  border-color: #f2f2f2;
+  color: #555;
+}
+
+.btn-secondary:hover {
+  background-color: #e6e6e6;
+  border-color: #e6e6e6;
+  color: #555;
+}
+
+/* Close button */
+.btn-close {
+  color: #fff;
+  font-size: 1.5rem;
+  margin: -5px -10px -5px auto;
+}

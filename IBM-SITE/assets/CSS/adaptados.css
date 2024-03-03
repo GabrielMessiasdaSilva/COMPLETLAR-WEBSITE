@@ -1,0 +1,5 @@
+.gallery-image {
+    width: 100%;
+    height: 400px; /* Altura ajustável para as imagens do carrossel */
+    object-fit: cover;
+}

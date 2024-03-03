@@ -1,0 +1,264 @@
+
+.btn-primary{
+    background-color: #0155b4; /* Código de cor para azul bebê */
+    color: #fff; /* Cor do texto no botão (branco) */
+    border: none; /* Remova a borda do botão, se desejar */
+}
+
+.btn-primary:hover {
+    background-color: #98abc5; /* Altere a cor ao passar o mouse, se desejar */
+}
+
+
+.col-md-2 img {
+    width: 130px; /* Altere o tamanho da largura conforme necessário */
+    height: 130px; /* Altere o tamanho da altura conforme necessário */
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+
+.img-zoom {
+    transition: transform 0.3s ease;
+}
+
+.img-zoom:hover {
+    transform: scale(1.1);
+}
+
+.a {
+    text-decoration: none;
+    color: inherit;
+    cursor: text;
+    pointer-events: none;
+}
+
+.new-badge {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #339cff; /* Cor de fundo da faixa */
+    color: #fff; /* Cor do texto da faixa */
+    padding: 5px 10px; /* Espaçamento interno da faixa */
+    z-index: 1; /* Certifique-se de que a faixa esteja na parte superior do cartão */
+}
+
+.cards1 {
+    background-image: linear-gradient(to right, #0d4172, #363532);
+    font-size: 1.2em ;
+    border: none;
+  }
+  
+  .card {
+    border: none;
+    height: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .card-icon {
+    font-size: 48px;
+    color: #007BFF;
+  }
+  
+  .card-title {
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+    color: #333;
+    margin-top: 20px;
+  }
+  
+  .card-text {
+    font-family: 'Verdana', sans-serif;
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .card.custom-card-bg {
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .card.custom-card-bg:hover {
+    transform: scale(1.05);
+  }
+  
+  .card.custom-card-bg .card-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  .card.custom-card-bg .card-text {
+    font-size: 18px;
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+
+  /* Adicione uma classe para evitar a quebra de texto */
+.nowrap {
+    white-space: nowrap;
+  }
+  
+  /* Aumente o tamanho da navbar */
+  .navbar {
+  
+    color:#fff;
+    background-image: linear-gradient(to right, #0d4172, #3b2c05);
+    min-height: 80px; /* Ajuste a altura conforme necessário */
+  }
+  
+  
+  
+  
+  /* Estilize o botão de pesquisa */
+  .form-control {
+    border-radius: 0; /* Remove o arredondamento do campo de pesquisa */
+    border-color: #ddd; /* Cor da borda do campo de pesquisa */
+  }
+  
+  /* Estilize o botão de pesquisa quando estiver focado */
+  .form-control:focus {
+    border-color: #333; /* Cor da borda quando focado */
+  }
+  
+  /* Estilize os ícones nos links de Login e Carrinho */
+  .navbar-nav .nav-link i {
+  
+    margin-right: 5px; /* Espaçamento entre o ícone e o texto */
+  }
+  .navbar .lar{
+    color: #9f730d;
+  }
+  .navbar-nav .nav-link {
+    color: white !important;
+  }
+  
+  .navbar-nav{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .nav-item {
+    margin: 0 10px; /* Ajuste conforme necessário */
+  }
+  .navbar-nav .nav-link{
+    font-size: 18px;
+    margin-left: 13px;
+  }
+
+  #footer {
+    padding: 3em 2em;
+    width: 100%;
+    background-color: #000; /* Cor de fundo preto */
+  }
+  
+  #footer-top {
+    margin-bottom: 2em;
+    border-bottom: 1px solid #fff; /* Linha separando o topo do rodapé com cor branca */
+    color: #fff; /* Cor do texto no topo do rodapé */
+  }
+  
+  
+  #footer-top,
+  #footer-top i {
+    color: #ffffff; /* Cor do texto e ícones no topo do rodapé */
+  }
+  
+  #social-icons {
+    text-align: right;
+    margin-bottom: 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    
+  }
+  
+  #social-icons i {
+    margin-right: 1em;
+    font-size: 1.5em;
+    cursor: pointer;
+  }
+  
+  #social-icons i:hover {
+    color: #fff; /* Cor do ícone ao passar o mouse */
+  }
+  
+  #footer-details {
+    margin-bottom: 3em;
+  }
+  
+  #news-container,
+  #contact-container,
+  #links-container {
+    padding: 0;
+    border: 0;
+    margin-bottom: 2em;
+  }
+  
+  #footer-details h4 {
+    color: #fff; /* Cor do título das seções */
+    margin-bottom: 1.5em;
+  }
+  
+  #news-container input {
+    border-radius: 0;
+    border: none;
+  }
+  
+  #links-container li {
+    margin-bottom: 0.5em;
+  }
+  
+  #links-container a {
+    text-decoration: none;
+    color: #fff; /* Cor dos links no rodapé */
+  }
+  
+  #links-container a:hover {
+    color: #fff; /* Cor do link ao passar o mouse */
+  }
+  
+  #footer-bottom {
+    border-top: 1px solid #7a7a7a; /* Linha superior do rodapé */
+    padding-top: 2em;
+  }
+  
+  #footer-bottom i {
+    color: #e61e10;
+  }
+  
+  #links-container {
+    text-align: center;
+  }
+  
+  .payment-icons {
+    margin-top: 20px;
+  }
+  
+  .payment-icons img {
+    max-width: 40px;
+    height: auto;
+    margin-right: 10px;
+  }
+  

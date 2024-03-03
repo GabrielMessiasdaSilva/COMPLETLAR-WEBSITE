@@ -1,0 +1,143 @@
+<?php
+// Array com os nomes dos arquivos originais e os nomes desejados
+$arquivos = array(
+    "AmarioAd.jpg" => "ArmarioAd1.jpg",
+    "AmarioAd1.jpg" => "ArmarioAd2.jpg",
+    "AmarioFrut.jpg" => "ArmarioFrut1.jpg",
+    "Armario-Escritorio.jpg"
+    "Armario-Mesa-Dobravel.jpg"
+    "ArmarioEscritorio.jpg"
+    "Cadeira.png"
+    "CamaB.jpg"
+    "CamaB1.jpg"
+    "Escrivaninha.jpg"
+    "Escrivaninha1.jpg"
+    "Escrivaninha2.jpg"
+    "Escrivaninha3.jpg"
+    "EscrivaninhaP1.jpg"
+    "EscrivaninhaP2.jpg"
+    "EscrivaninhaP3.jpg"
+    "EscrivaninhaP4.jpg"
+    "Guarda-Roupa-Casal.jpg"
+    "Guarda-Roupa-Espelho.jpg"
+    "Guarda-Roupa-Espelho1.jpg"
+    "Guarda-Roupa-Espelho2.jpg"
+    "Guarda-Roupa-Espelho3.jpg"
+    "Guarda-Roupa-Espelho4.jpg"
+    "Guarda-Roupa.jpg"
+    "Maca-Armario.jpg"
+    "Mesa-Escolar.jpg"
+    "Mesa-EscolarAdap.jpg"
+    "Mesa-Multiuso.jpg"
+    "MesaEscolar.jpg"
+    "MesaGamer.jpg"
+    "MesaGamer1.jpg"
+    "MesaGamer2.jpg"
+    "MesaMultiuso.jpg"
+    "Painel.jpg"
+    "Puff.jpg"
+    "Rack.jpg"
+    "Rack1.jpg"
+    "Sofa.webp"
+    "adaptados.jpg"
+    "balcaoCozi.jpg"
+    "bicama.jpg"
+    "cabeceira.jpg"
+    "cadeira.jpg"
+    "cadeiraEscri.jpg"
+    "cadeiraEscri1.jpg"
+    "cadeiraEscri2.jpg"
+    "cadeiras.jpg"
+    "cadeiras1.jpg"
+    "cadeiras2.jpg"
+    "cadeiras4.jpg"
+    "camaH.png"
+    "camaH1.png"
+    "camaH2.png"
+    "camaH3.png"
+    "colchao.jpg"
+    "colchao1.jpg"
+    "colchao2.jpg"
+    "comoda.jpg"
+    "comoda1.jpg"
+    "comoda2.jpg"
+    "comoda3.jpg"
+    "comoda4.jpg"
+    "comodaa.jpg"
+    "conjuntoE.jpg"
+    "conjuntoE1.jpg"
+    "conjuntoE2.jpg"
+    "conjuntoE3.jpg"
+    "conjuntoE4.jpg"
+    "conjuntoE5.jpg"
+    "cozinhaCompa.jpg"
+    "cozinhaCompleta.jpg"
+    "cozinhaCompleta1.jpg"
+    "cozinhaa.jpg"
+    "escrito.jpg"
+    "estanteC.jpg"
+    "estanteL.jpg"
+    "estanteT.jpg"
+    "guardaRoupe.jpg"
+    "kitCozi.jpg"
+    "mesa-escritório.jpg"
+    "mesa.jpg"
+    "mesa1.jpg"
+    "mesa2.jpg"
+    "mesaC.jpg"
+    "mesaC1.jpg"
+    "mesaCabeceira.jpg"
+    "mesadCozi.jpg"
+    "mesadCozi1.jpg"
+    "p1.jpg"
+    "p3.jpg"
+    "paneleiro.jpg"
+    "paneleiro1.jpg"
+    "paneleiro2.jpg"
+    "paneleiro4.jpg"
+    "poltronaL.jpg"
+    "poltronaOli.jpg"
+    "poltronaOli1.jpg"
+    "poltronaOli2.jpg"
+    "poltronaOli3.jpg"
+    "poltronaOli4.jpg"
+    "quartos.jpg"
+    "saladestarr.jpg"
+    "sapateira.jpg"
+    "sapateira1.jpg"
+    "sapateira2.jpg"
+    "sapateira3.jpg"
+    "sofa-cama.jpg"
+    "sofa-cama1.jpg"
+    "sofa-cama2.jpg"
+    "sofa-cama3.jpg"
+    "sofa-cama4.jpg"
+    "sofa-slim.jpg"
+    "sofa3.jpg"
+    "sofa4.jpg"
+    "sofa41.jpg"
+    "sofa42.jpg"
+    "sofa43.jpg"
+    "sofa44.jpg"
+    "sofá.jpg"
+    
+);
+
+// Diretório onde os arquivos estão localizados
+$diretorio = "assets/Imagens/Produtos/";
+
+foreach ($arquivos as $nomeOriginal => $novoNome) {
+    $caminhoOriginal = $diretorio . $nomeOriginal;
+    $caminhoNovo = $diretorio . $novoNome;
+
+    if (file_exists($caminhoOriginal)) {
+        if (rename($caminhoOriginal, $caminhoNovo)) {
+            echo "Arquivo '$nomeOriginal' renomeado para '$novoNome' com sucesso.<br>";
+        } else {
+            echo "Erro ao renomear o arquivo '$nomeOriginal'.<br>";
+        }
+    } else {
+        echo "Arquivo '$nomeOriginal' não encontrado.<br>";
+    }
+}
+?>

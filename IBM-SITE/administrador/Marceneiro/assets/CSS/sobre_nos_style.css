@@ -1,0 +1,292 @@
+body, html {
+  background-color: #f7f1f1;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+* {
+  font-family: 'Lato', sans-serif;
+}
+
+.bg-primary-color {
+  background-color: #fff;
+}
+
+.bg-secondary-color {
+  background-color: #ece8e2;
+}
+
+.bg-dark-color {
+  background-color: #050505;
+}
+
+.primary-color {
+  color: #050505;
+}
+
+.secondary-color {
+  color: #7a7a7a;
+}
+
+
+
+
+
+/* Adicione uma classe para evitar a quebra de texto */
+.nowrap {
+  white-space: nowrap;
+}
+
+/* Aumente o tamanho da navbar */
+.navbar {
+
+  color:#fff;
+  background-image: linear-gradient(to right, #0d4172, #3b2c05);
+  min-height: 80px; /* Ajuste a altura conforme necessário */
+}
+
+
+
+
+/* Estilize o botão de pesquisa */
+.form-control {
+  border-radius: 0; /* Remove o arredondamento do campo de pesquisa */
+  border-color: #ddd; /* Cor da borda do campo de pesquisa */
+}
+
+/* Estilize o botão de pesquisa quando estiver focado */
+.form-control:focus {
+  border-color: #333; /* Cor da borda quando focado */
+}
+
+/* Estilize os ícones nos links de Login e Carrinho */
+.navbar-nav .nav-link i {
+
+  margin-right: 5px; /* Espaçamento entre o ícone e o texto */
+}
+.navbar .lar{
+  color: #9f730d;
+}
+.navbar-nav .nav-link {
+  color: white !important;
+}
+
+.navbar-nav{
+  display: flex;
+  justify-content: center;
+}
+
+.nav-item {
+  margin: 0 10px; /* Ajuste conforme necessário */
+}
+.navbar-nav .nav-link{
+  font-size: 18px;
+  margin-left: 13px;
+}
+
+/*RESPONSIVIDADE*/
+.dis{
+display: none;
+}
+h5.hcinco{
+margin-top: 20px; 
+margin-left: -150px;
+}
+@media (max-width: 1020px){
+.dis{
+  display: block;
+}
+.none{
+  display: none;
+}
+}
+@media (max-width: 362px){
+h5.hcinco{
+  margin-top: 20px; 
+margin-left: -100px;
+}
+}
+
+.button-class{
+color:white;
+}
+.dis{
+display:auto ;
+}
+h5.hcinco{
+margin-top: 20px; 
+margin-left: -150px;
+}
+@media (max-width: 1020px){
+.dis{
+  display: block;
+}
+.none{
+  display: none;
+}
+}
+@media (max-width: 362px){
+h5.hcinco{
+  margin-top: 20px; 
+margin-left: -100px;
+}
+}
+/* Estilo para os cards */
+.card {
+    margin-bottom: 30px;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s;
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-title {
+    font-size: 24px;
+    color: #333;
+}
+
+.card-text {
+    font-size: 16px;
+    color: #666;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo para a galeria de fotos */
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+/* Estilo para o efeito parallax */
+.parallax {
+    background-image: url('Imagens/Parallax/fundo.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 400px;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.parallax h2 {
+    font-size: 36px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* FOOTER TOP */
+#footer {
+  padding: 3em 2em;
+  width:100%;
+}
+
+#footer-top {
+  margin-bottom: 2em;
+}
+
+#footer-top,
+#footer-top i {
+  color: #fff;
+}
+
+#social-icons {
+  text-align: right;
+}
+
+#social-icons i {
+  margin-right: 1em;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+#social-icons i:hover {
+  color: #7a7a7a;
+}
+
+/* FOOTER DETAILS */
+#footer-details {
+  margin-bottom: 3em;
+}
+
+#news-container,
+#contact-container,
+#links-container {
+  padding: 0;
+  border: 0;
+  margin-bottom: 2em;
+}
+
+#footer-details h4 {
+  color: #fff;
+  margin-bottom: 1.5em;
+}
+
+#news-container input {
+  border-radius: 0;
+  border: none;
+}
+
+#links-container li {
+  margin-bottom: 0.5em;
+}
+
+#links-container a {
+  text-decoration: none;
+}
+
+#links-container a:hover {
+  color: #fff;
+}
+
+/* FOOTER BOTTOM */
+#footer-bottom {
+  border-top: 1px solid #7a7a7a;
+  padding-top: 2em;
+}
+
+#footer-bottom i {
+  color: #e61e10;
+}
+
+/* Estilo para a seção de links e ícones de pagamento no footer */
+#links-container {
+  /* ... (seus estilos existentes) ... */
+  text-align: center; /* Centralizar os ícones */
+}
+
+.payment-icons {
+  margin-top: 20px; /* Espaçamento entre os links e os ícones */
+}
+
+.payment-icons img {
+  max-width: 40px; /* Defina o tamanho desejado para os ícones */
+  height: auto;
+  margin-right: 10px; /* Espaçamento entre os ícones */
+}
+
+@media (min-width: 768px) {
+  #news-container {
+    padding-right: 2em;
+  }
+
+  #contact-container {
+    padding: 0 2em;
+    border-left: 1px solid #7a7a7a;
+    border-right: 1px solid #7a7a7a;
+  }
+
+  #links-container {
+    padding-left: 2em;
+  }
+}
+

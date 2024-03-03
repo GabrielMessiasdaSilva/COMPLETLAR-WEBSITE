@@ -1,0 +1,65 @@
+/* Estilos para a página MinhaConta */
+
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.styled-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.styled-heading {
+    color: #333;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.info-box {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.buttons-section,
+.budget-section {
+    margin-top: 20px;
+}
+
+.styled-btn {
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.btn-warning.styled-btn {
+    background-color: #ffcc00;
+}
+
+.btn-danger.styled-btn {
+    background-color: #ff6666;
+}
+
+.btn-success.styled-btn {
+    background-color: #66cc66;
+}
+
+.btn-warning.styled-btn:hover {
+    background-color: #ffbf00;
+}
+
+.btn-danger.styled-btn:hover {
+    background-color: #ff4d4d;
+}
+
+.btn-success.styled-btn:hover {
+    background-color: #3cbf3c;
+}
