@@ -1,6 +1,6 @@
 ## Acesse ao  nosso Projeto 🌐(em construção)
 
-Para conhecer e explorar o projeto Completlar, visite o site oficial em [Completlar - Sua Casa, Seu Estilo](https://www.completlar.com).
+Para conhecer e explorar o projeto Completlar, visite o site oficial em [Completlar - Sua Casa, Seu Estilo](http://www.completlar.kesug.com).
 # Projeto Completlar 🪑🏡
 
 ## Introdução
